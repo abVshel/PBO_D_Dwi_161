@@ -29,7 +29,7 @@ public class Main {
             System.out.print("Masukkan NIM: ");
             String nim = scanner.nextLine();
 
-            if (nama.equals("Dimas Guntur Prasetya Sumoro") && nim.equals("202410370110152")) {
+            if (nama.equals("Rhiwugha Dwi. S") && nim.equals("202410370110161")) {
                 System.out.println("Login Mahasiswa berhasil!");
                 System.out.println("Nama: " + nama);
                 System.out.println("NIM: " + nim);
@@ -39,7 +39,5 @@ public class Main {
         } else {
             System.out.println("Pilihan tidak valid.");
         }
-
-        scanner.close();
     }
 }
